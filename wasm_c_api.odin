@@ -8,6 +8,9 @@ import c "core:c/libc"
 when ODIN_OS == .Windows {
 
 }
+when ODIN_OS == .Darwin {
+
+}
 when ODIN_OS == .Linux {
 	foreign import lib "lib/linux/libvmlib.a"
 }
